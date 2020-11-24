@@ -1,0 +1,27 @@
+.sound-item{
+  font-family: 'Grandstander', cursive;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 4.5rem;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+}
+
+.sound-item_pressBg {
+ background: darkturquoise;
+}
+
+.sound-item_defaultBg {
+ background: lightskyblue;
+}
+
+.sound-item:hover{
+  opacity: 0.9;
+  background: darkturquoise;
+  transform: translateY(-1px);
+}
