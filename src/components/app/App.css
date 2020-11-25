@@ -37,6 +37,7 @@ body{
   background-image: url('../../images/background-img.jpeg');
   background-size: cover;
   background-position: center;
+  user-select: none;
 }
 
 .app{
