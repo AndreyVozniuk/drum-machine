@@ -7,7 +7,7 @@ export default function SoundCommand({setInputFocus, setCommand, command, disabl
     if(disabled){
       const BPM = 120
       const ms = Math.round((60 / BPM) * 1000)
-      const commands = command.replaceAll(' ', '').split('')
+      const commands = command.replace(/ /g, '').split('')
       let index = 0
 
       const interval = setInterval(() => {
